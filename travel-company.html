@@ -1,15 +1,148 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Travel Company</title>
     <script src="https://cdn.tailwindcss.com"></script>
-</head>
-<body>
-    <!-------------------- Oat Header--------------------------->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-------------------- Jaii Service-------------------------->
 
-    <section></section>
+    <section class="service-section flex justify-end items-center">
+      <div class="service w-full px-[13%] pb-[5%]" >
+        <div
+          class="service-header w-full flex flew-row justify-between items-end"
+        >
+          <p
+            class="service-header-text w-[28.5vw] text-5xl font-[poppins] font-bold"
+          >
+            Start Your Vacation with Lost of Services!
+          </p>
+          <div
+            class="service-header-all h-fit w-fit flex flex-row items-center gap-4"
+          >
+            <p class="font-[dmsans] font-normal text-[#FE5B3E]">View All Services</p>
+            <img
+              src="images\right-arrow.png"
+              alt="all"
+              class="w-[21px] h-[13.5px]"
+            />
+          </div>
+        </div>
+        <!-- container -->        
+        <div class="card-contianer w-full  mt-[70px] flex flex-row gap-[30px] ">
+          <!-- card 1 - family -->
+          <div
+            class="service-card-family w-[332.5px] h-[272px] rounded-[20px] border-[1px] border-[#F0EDED] flex flex-col justify-center items-center gap-6 "
+          >
+            <div
+              class="service-picbox-1 bg-[#FE5B3E1A] w-[80px] h-[80px] rounded-[20px] flex items-center justify-center"
+            >
+              <img
+                class="image-fam w-10 h-10"
+                src="images\family.png"
+                alt="family "
+              />
+            </div>
+            <div
+              class="service-text-1 w-[216px] flex flex-col justify-center items-center gap-2"
+            >
+              <p class="font-[poppins] font-semibold text-2x text-[#221314]">
+                Family Vacations
+              </p>
+              <p class="text-[#467AA8] font-[dm-sans]">155 Properties</p>
+            </div>
+          </div>
+          <!-- card 2- scuba -->
+          <div
+            class="service-card-scuba w-[332.5px] h-[272px] rounded-[20px] border-[1px] border-[#F0EDED] flex flex-col justify-center items-center gap-6"
+          >
+            <div
+              class="service-picbox-1 bg-[#FE5B3E1A] w-[80px] h-[80px] rounded-[20px] flex items-center justify-center"
+            >
+              <img
+                class="image-fam w-10 h-10"
+                src="images\scuba.png"
+                alt="family "
+              />
+            </div>
+            <div
+              class="service-text-2 w-[216px] flex flex-col justify-center items-center gap-2  "
+            >
+              <p class="font-[poppins] font-semibold text-2x text-[#221314]">
+                Scuba Diving
+              </p>
+              <p class="text-[#467AA8] font-[dm-sans]">143 Properties</p>
+            </div>
+          </div>
 
-</body>
+         
+
+           <!-- card 3- scuba -->
+          <div
+            class="service-card-hunting w-[332.5px] h-[272px] rounded-[20px] border-[1px] border-[#F0EDED] flex flex-col justify-center items-center gap-6 shadow-xl"
+          >
+            <div
+              class="service-picbox-3 bg-[#FE5B3E1A] w-[80px] h-[80px] rounded-[20px] flex items-center justify-center"
+            >
+              <img
+                class="image-fam w-10 h-10"
+                src="images\hunting.png"
+                alt="facing deer "
+              />
+            </div>
+            <div
+              class="service-text-3 w-[216px] flex flex-col justify-center items-center gap-2  "
+            >
+              <p class="font-[poppins] font-semibold text-2x text-[#221314]">
+                Hunting Trip
+              </p>
+              <p class="text-[#467AA8] font-[dm-sans]">122 Properties</p>
+            </div>
+          </div>
+ <!-- card 4- Mountain Bike -->
+          <div
+            class="service-card-bike w-[332.5px] h-[272px] rounded-[20px] border-[1px] border-[#F0EDED] flex flex-col justify-center items-center gap-6"
+          >
+            <div
+              class="service-picbox-4 bg-[#FE5B3E1A] w-[80px] h-[80px] rounded-[20px] flex items-center justify-center"
+            >
+              <img
+                class="image-bike w-10 h-10"
+                src="images\bike.png"
+                alt="mountain bike "
+              />
+            </div>
+            <div
+              class="service-text-4 w-[216px] flex flex-col justify-center items-center gap-2  "
+            >
+              <p class="font-[poppins] font-semibold text-2x text-[#221314]">
+                Mountian Bike
+              </p>
+              <p class="text-[#467AA8] font-[dm-sans]">185 Properties</p>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+        </div>
+      </div>
+      
+       
+    </section>
+  </body>
 </html>
